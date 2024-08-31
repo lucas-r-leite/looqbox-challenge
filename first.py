@@ -39,6 +39,8 @@ def retrieve_data(product_code=None, store_code=None, date=None):
         # Retrieve data using pandas with SQLAlchemy engine
         df = pd.read_sql(query, engine)
 
+        print(df)
+
         return df
 
     except Exception as e:
@@ -57,4 +59,3 @@ if __name__ == "__main__":
     my_data = retrieve_data(
         product_code=18, store_code=1, date=["2019-01-01", "2019-01-31"]
     )
-    print(my_data)
