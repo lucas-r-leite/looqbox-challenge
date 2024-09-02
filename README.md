@@ -54,10 +54,10 @@ Este script recupera dados das tabelas data_store_cad e data_store_sales usando 
 
 3. `third.py`
 
-Este script realiza análise de dados e visualização usando a tabela IMDB_Movies. Ele gera vários gráficos para analisar os dados dos filmes, como os 10 filmes principais por receita, a relação entre classificações de filmes e receita, e a distribuição de filmes por gênero.
+Este script realiza análise de dados e visualização usando a tabela IMDB_Movies. Ele gera vários gráficos para analisar os dados dos filmes, como os 10 filmes principais por receita, a relação entre rating de filmes e receita, e a distribuição de filmes por gênero.
 
 ### Visualização
 
 - Gráfico de Barras: Top 10 filmes por receita;
-- Gráfico de Dispersão: Receita vs Classificação IMDB;
+- Gráfico de Dispersão: Receita vs Rating IMDB;
 - Gráfico de Barras: Número de filmes dos 10 gêneros principais.
